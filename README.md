@@ -1,60 +1,68 @@
 # Exp-1 ATM & BANKING SYSTEM
 
 # AIM:
-
-To study the problem statement ,SRS document and draw the UML diagram of ATM and banking system.
-
-
+To study the problem statement ,SRS document and draw the UML diagram of library management system system
 # SRS (Procedure):
-
-Create the following diagrams in StarUML:
-
+A Library Management System UML Diagram represents the design of how different components of a library interact. It typically includes several types of UML diagrams. Here's a simple explanation of each, along with the most important one: the Class Diagram.
 Use Case Diagram
+Shows actors and system functionalities.
+Actors: Librarian, Member
+Use Cases: Search Book, Issue Book, Return Book, Add Book, Remove Book, Pay Fine
+Sequence Diagram (Example: Book Issue Process)
+Shows object interactions in time sequence:
 
-Class Diagram
+Actor: Member
 
+Objects: Library System → Book → Borrower
 Activity Diagram
+Describes the flow of activities (like issuing a book).
+47
+List of Programs:
 
-Package Diagram
+i) Usecase Diagram
 
-Communication Diagram
+ii)Class Diagram
 
-Sequence Diagram
+iii)Activity Diagram
 
-1 . User logs in or creates an account, choosing current or savings type.
+iv)Communication Diagram
 
-2 . They can deposit, withdraw, check balance, print statements, or change PIN.
+v)Package Diagram
 
-3 . Users may request a chequebook or apply for a loan (small or large).
-
-4 . After verification and approval, funds are transferred, details stored, and server maintained.
+vi)Sequence Diagram
 
 # DIAGRAMS:
+# USECASE DIAGRAM
+![Screenshot 2025-05-13 111118](https://github.com/user-attachments/assets/3bf165fa-bf62-4d1b-816b-0c55184cf38f)
 
-### USE CASE DIAGRAM:
+# CLASS DIAGRAM
 
-<img width="856" height="611" alt="image" src="https://github.com/user-attachments/assets/1e091b9b-77fe-47fb-831e-e5552c5ed87a" />
 
-### CLASS DIAGRAM:
+![Screenshot 2025-05-13 111123](https://github.com/user-attachments/assets/6d1f8f51-07c4-492e-a276-0b4bbd3508ab)
 
-<img width="1082" height="667" alt="image" src="https://github.com/user-attachments/assets/c27f4d2a-b091-42a0-a7e9-656551789e74" />
 
-### PACKAGE DIAGRAM:
+# ACTIVITY DIAGRAM
+![Screenshot 2025-05-13 111129](https://github.com/user-attachments/assets/d9d90843-da28-4004-b0ff-ac55ada9c6aa)
 
-<img width="862" height="533" alt="image" src="https://github.com/user-attachments/assets/2c9a0ad5-7608-4ec1-8b62-b15e28515100" />
 
-### SEQUENCE DIAGRAM:
+# COMMUNICATION DIAGRAM
 
-<img width="865" height="770" alt="image" src="https://github.com/user-attachments/assets/c985e59a-a407-4590-8201-10f17fa382de" />
+![Screenshot 2025-05-13 111134](https://github.com/user-attachments/assets/1b6eb780-a1b2-4668-8283-5d1fa587f1d7)
 
-### COMMUNICATION DIAGRAM:
 
-<img width="1170" height="483" alt="image" src="https://github.com/user-attachments/assets/cca0cf6f-b852-4d8b-aa05-ce93561b5642" />
+# PACKAGE DIAGRAM
+![Screenshot 2025-05-13 111141](https://github.com/user-attachments/assets/001fb94e-4bd0-40ef-984f-1ae132be7824)
 
-### ACTIVITY DIAGRAM:
 
-<img width="560" height="772" alt="image" src="https://github.com/user-attachments/assets/fbaf7ff0-8147-4095-b181-6e3b835ae0e0" />
+
+# SEQUENCE DIAGRAM
+
+![Screenshot 2025-05-13 111149](https://github.com/user-attachments/assets/0794042d-f90d-4101-81be-526233837997)
+
+
+
+
 
 # RESULT:
 
-Thus, the UML Diagrams for an ATM and Banking System has been drawn and verified.
+Thus the "ATM & BANKING SYSTEM" project created,executed & the output was verified
